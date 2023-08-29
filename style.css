@@ -17,7 +17,7 @@ body {
 
 .container {
     width: 1150px;
-    height: 500px;
+    /* height: 500px; */
     margin: 50px auto;
 }
 
@@ -47,7 +47,7 @@ body {
     margin-bottom: 32px;
 }
 
-.primary-btn{
+.primary-btn {
     padding: 15px 35px;
     border-radius: 8px;
     background: #E55473;
@@ -55,4 +55,96 @@ body {
     font-size: 18px;
     font-weight: 600;
     border-style: none;
+}
+
+.product-name {
+    color: #272727;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+
+/* end header area */
+
+
+
+/* start product area */
+
+.product-area {
+    margin-top: 170px;
+    margin-bottom: 130px;
+}
+
+.product-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.product-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 20px;
+    /* why width doesn't work properly */
+}
+
+.single-product-1 {
+
+    width: 300px;
+    height: 380px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.single-product-2 {
+
+    width: 300px;
+    height: 380px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.single-product-3 {
+
+    width: 300px;
+    height: 380px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.product-image-1 {
+    width: 220px;
+    height: 303px;
+    margin-left: 40px;
+    margin-top: 74px;
+}
+
+.product-image-2 {
+    width: 272px;
+    height: 308px;
+    margin-left: 33px;
+    margin-top: 55px;
+    margin-bottom: 13px;
+}
+
+.product-image-3 {
+    width: 220px;
+    height: 340px;
+    margin-left: 40px;
+    margin-top: 39px;
+}
+
+
+.all-products {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
 }
