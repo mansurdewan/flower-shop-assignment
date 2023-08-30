@@ -173,3 +173,52 @@ body {
     font-weight: 600;
     padding-top: 20px;
 }
+
+/* end service area */
+
+
+/* start offer area */
+
+.offer-area {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 70px 0;
+
+}
+
+.offer-parent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.offer-title {
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.offer-title span {
+    color: #E55473;
+}
+
+.offer-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    line-height: 30px;
+}
+
+.offer-area button{
+    display: block;
+    margin: 0 auto;
+    /* is it the best practice for centering button in a div? */
+    margin-top: 20px;
+}
+
+.offer-area img{
+    width: 300px;
+    height: 420px;
+    margin-left: 270px;
+}
