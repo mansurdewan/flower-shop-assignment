@@ -234,7 +234,7 @@ body {
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    margin-top:100px;
+    margin-top: 100px;
 }
 
 .social-description {
@@ -246,12 +246,58 @@ body {
     margin-bottom: 25px;
 }
 
-.social-image-parent{
+.social-image-parent {
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-between; */
+
+    /* I can do what I want by space-between and gap but I am not sure that which one will be better */
+    gap: 23px;
+    margin-bottom: 70px;
 }
 
-.social-single-image{
+.social-single-image {
     width: 270px;
     height: 340px;
 }
+
+/* end social area */
+
+
+/* start contact area */
+
+
+.contact-area {
+    background-image: url('flower-asset/Rectangle\ 9.png');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 25px;
+
+}
+
+.contact-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 54px;
+}
+
+.contact-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+ .contact-area input{
+    margin: 67px 10px 0 214px;
+    width: 536px;
+    height: 54px;
+    border-radius: 8px;
+    padding-left: 51px;
+    font-size: 18px;
+    border-style: none;
+    /* is it the right way? */
+} 
+
