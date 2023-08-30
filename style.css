@@ -108,7 +108,7 @@ body {
     width: 300px;
     height: 380px;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
+    background: rgba(5, 151, 160, 0.15);
 }
 
 .single-product-3 {
@@ -116,7 +116,7 @@ body {
     width: 300px;
     height: 380px;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
+    background: rgba(71, 125, 17, 0.15);
 }
 
 .product-image-1 {
@@ -147,4 +147,29 @@ body {
     justify-content: center;
     gap: 25px;
     margin-top: 40px;
+}
+
+/* start service area */
+
+.service-area {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 70px 0;
+}
+
+.service-icon {
+    width: 55px;
+    height: 50px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.service-description {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 20px;
 }
